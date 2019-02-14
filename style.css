@@ -23,7 +23,7 @@ body {
   section {
     display: block;
     float: left;
-    width: 50%;
+    width: 495px;
     height: 50%;
     overflow: hidden;
   }
@@ -31,7 +31,7 @@ body {
   aside {
     display: block;
     float: right;
-    width: 50%;
+    width: 495px;
     height: 50%;
     overflow: hidden;
   }
@@ -45,7 +45,7 @@ body {
   
   h1,
   p {
-    width: 90%;
+    width: 495px;
     padding: 10px;
     margin: 10px;
     color: #777;
