@@ -12,63 +12,60 @@ header{
 	background-color: #ebebeb;
 	display: block;
 	margin-top: 10px;
-	padding: 40px;
+	padding: 30px;
 	float: auto;
 }
 
-.clearfix
-{
+.clearfix{
   width: 450px;
+  height: 220px;
   margin:auto;
   float: left;
-}
-
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 nav{
   display: block;
   background-color: #ebebeb;
   margin-top: 10px;
-	padding: 40px;
+  margin-bottom: 10px;
+	padding: 30px;
 	float: auto;
 }
+
 section{
 	background-color: #ebebeb;
 	float: left;
-	margin-top: 30px;
   padding-top: 30px;
   margin-top: 10px;
-  height: 250px;
-  width: 450px;
+  height: 220px;
+  width: 490px;
 }
 
 article{
 	background-color: #777;
 	color: #ebebeb;
-	margin:auto;
+  margin:auto;
   padding-top: 10px;
-  width: 450px;
-  border:1px;
-    }
+  padding-bottom: 10px;
+  width: 470px;
+}
   aside {
-    display:block;
-    padding-top: 10px;
-    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 20px;
     margin-top: 10px;
     float:right;
     width: 450px;
     text-align: center;
     background: #ebebeb;
-    height: 250px;
+    height: 220px;
    
   }
-    #hsection,  #p {
-    padding: 10px;
-    margin: 10px;
+    #hsection, #p {
+    width: 440px;
+    height: 30px;
+    padding-top: 20px;
+    padding-bottom:5px;
+    margin: 10px 0px 10px 10px;
     color: #777;
     text-align: center;
     background: #ebebeb;
@@ -76,7 +73,6 @@ article{
 
   footer {
     background-color: #ebebeb;
-    margin-top:10px;
 	  padding: 20px;
     text-align: center;
     clear: both;
